@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import com.tngf.webdriver.TestScript;
 //Add Comment for iss90
 //
-//Chenaged for issue31
+//Chenaged for BrNewBranch
 public class LoginVerification extends TestScript {
 
 	WebDriver driver;
