@@ -16,7 +16,7 @@ public class LoginVerification extends TestScript {
 	@Parameters("browser")
 	@BeforeMethod
 	public void set(String browser) throws MalformedURLException {
-		 driver = this.setUp(browser);
+		 driver = this.setUp("localhost:4444",browser);
 	}
 
 	@Test

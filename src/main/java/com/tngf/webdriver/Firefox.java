@@ -9,7 +9,7 @@ public class Firefox implements IWebDriver {
 
 	DesiredCapabilities capabilities = new DesiredCapabilities();
 	WebDriver driver = null;
- 
+  
 
 	public WebDriver getWebdriver(String x) {
 		// TODO Auto-generated method stub

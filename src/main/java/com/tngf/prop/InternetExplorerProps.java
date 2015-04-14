@@ -18,4 +18,6 @@ public class InternetExplorerProps {
 			return '!' + key + '!';
 		}
 	}
+	
+	
 }
