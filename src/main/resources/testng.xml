@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+<suite name="Test Suite" verbose="2" parallel="tests" thread-count="2">
+
+	<test name="Windows / Firefox" preserve-order="true">
+		<parameter name="selenium.server" value="192.168.110.254:4444" />
+		<parameter name="browser" value="com.tngf.webdriver.Firefox" />
+		<parameter name="username" value="testuser5" />
+		<parameter name="password" value="testuser5" />
+		<classes>
+			<class name="suite.sanity.LoginVerification" />
+		</classes>
+	</test>
+	<test name="Windows / IE" preserve-order="true">
+		<parameter name="selenium.server" value="192.168.110.254:4444" />
+		<parameter name="browser" value="com.tngf.webdriver.InternetExplorer" />
+		<parameter name="username" value="testuser5" />
+		<parameter name="password" value="testuser5" />
+		<classes>
+			<class name="suite.sanity.LoginVerification" />
+		</classes>
+	</test>
+	
+	
+<!-- chked -->
+</suite>
